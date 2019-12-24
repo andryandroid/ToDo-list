@@ -11,3 +11,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card{
+    width: 400px;
+    margin: auto;
+}
+
+.card h1{
+    text-align: center;
+}
+i{
+    color: grey;
+    font-size: 1.25em;
+    
+}
+
+p{
+    color: gray;
+    font-size: 0.75em;
+}
+
+i:hover{
+    color: red;
+
+}
+
+li:hover{
+    a {visibility: visible;}
+}
+
+a{
+    float: right;
+    visibility: hidden;
+}
